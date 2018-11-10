@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jacob Hughes - Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+
+</head>
+
+<body>
+    <!-- navbar "container"-->
+    <nav class="navbar navbar-expand-md fixed-top p-0">
+        <div class="container">
+            <h1 class="navbar-text float-left p-3 m-0 navName">Jacob Hughes</h1>
+
+            <ul class="navbar-nav justify-content-end p-0">
+                <!-- about button -->
+                <li class="nav-item">
+                    <a class="nav-link navButton" href="index.html">About</a>
+                </li>
+                <!-- portfolio button -->
+                <li class="nav-item">
+                    <a class="nav-link navButton" href="portfolio.html">Portfolio</a>
+                </li>
+                <!-- contact button -->
+                <li class="nav-item">
+                    <a class="nav-link navButton" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="mobileMargin d-md-none"></section>
+
+    <!-- content container -->
+    <div class="container-fluid">
+        <!-- content row -->
+        <div class="row">
+            <!-- empty column -->
+            <div class="col-md-2"></div>
+            <!-- content column -->
+            <div class="col-md-8 px-0">
+                <div class="row contentBox">
+                    <!-- content header -->
+                    <div class="col-md-12">
+                        <h1 class="contentName">Contact</h1>
+                        <hr>
+
+                    </div>
+                    <!-- content form -->
+                    <div class="col-md-12">
+
+                        <div class="form-group">
+                            <label for="nameInput">Name</label>
+                            <input type="text" class="form-control" id="nameInput" placeholder="John Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="emailInput">Email address</label>
+                            <input type="text" class="form-control" id="emailInput" placeholder="abc123@example.com">
+                        </div>
+                        <div class="form-group messageDiv">
+                            <label class="form-check-label" for="messageInput">Message</label>
+                            <input type="text" class="form-control" id="messageInput">
+
+                        </div>
+                        <button type="submit" class="btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <!-- empty column -->
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <footer class="footer">
+        <div class="container">
+            <span class="copyright">Copyright</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
